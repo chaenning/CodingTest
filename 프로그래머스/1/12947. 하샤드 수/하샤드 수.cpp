@@ -13,7 +13,7 @@ bool solution(int x) {
         y /= 10;
     }
     
-    answer = x % num == 0 ? answer = true : answer = false;
+    answer = x % num == 0 ? true : false;
 
     
     return answer;
