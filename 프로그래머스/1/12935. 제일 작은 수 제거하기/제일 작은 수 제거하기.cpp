@@ -9,11 +9,10 @@ vector<int> solution(vector<int> arr) {
         return arr;
     };
     
-    int n = arr[0];
+
     int minIndex = 0;
     for(int i = 1 ; i< arr.size(); i++){
-        if(n > arr[i])  {
-            n = arr[i];
+        if(arr[i] < arr[minIndex])  {
             minIndex = i;
         }
     }
