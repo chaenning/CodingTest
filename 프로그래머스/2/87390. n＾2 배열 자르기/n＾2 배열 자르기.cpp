@@ -8,8 +8,8 @@ vector<int> solution(int n, long long left, long long right) {
     vector<long long> vec;
 
     for(long long i = left; i<= right; i++){        
-        int x = i / n;
-        int y = i % n;
+        long long x = i / n;
+        long long y = i % n;
         
         if(x > y) {
             answer.push_back(x + 1);
