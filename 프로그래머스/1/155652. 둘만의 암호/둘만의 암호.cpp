@@ -17,7 +17,7 @@ string solution(string s, string skip, int index) {
         while (count < index) {
             c++;
             if (c > 'z') c = 'a';
-            if (skip_set.find(c) != skip_set.end()) continue;  // skip 문자면 count 안 증가
+            if (skip_set.find(c) != skip_set.end()) continue;  // skip 문자면 count 증가x
             count++;
         }
 
