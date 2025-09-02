@@ -58,6 +58,7 @@ vector<int> solution(vector<string> park, vector<string> routes) {
             posY = moveY;
         }
     }
+    
     answer.push_back(posX);
     answer.push_back(posY);
     
